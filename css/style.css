@@ -1,0 +1,13 @@
+/* Ajuste para pantallas más pequeñas */
+@media (max-width: 481px) {
+    .navbar-brand {
+        white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+        font-size: 1.5rem; /* Ajusta el tamaño de la fuente si es necesario */
+    }
+
+    .container-fluid {
+        display: flex;
+        justify-content: space-between; /* Asegura que el logo y el texto estén bien alineados */
+        align-items: center;
+    }
+}
