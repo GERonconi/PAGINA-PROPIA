@@ -1,3 +1,21 @@
+¿Quién soy?
+[Tu nombre o nombre de la empresa] es un emprendimiento dedicado a la reparación y mantenimiento de computadoras, surgido con el objetivo de ofrecer soluciones rápidas, efectivas y personalizadas a cada cliente. Aunque llevo menos de un año en este camino, mi pasión por la tecnología y el compromiso con la calidad me han impulsado a brindar un servicio confiable y accesible para todos.
+
+Como profesional independiente, me enfoco en ofrecer atención directa y cercana, asegurándome de que cada equipo que llega a mis manos reciba el cuidado que necesita. Ya sea para una reparación urgente, optimización del rendimiento o mantenimiento preventivo, estoy aquí para garantizar que tu PC funcione de la mejor manera posible.
+
+¿Por qué elegirnos?
+Atención 100% personalizada: Al ser una empresa pequeña, puedo darte el tiempo y la atención que tu equipo necesita, sin intermediarios.
+Compromiso y dedicación: Cada trabajo es importante, y trato cada dispositivo con el mismo nivel de seriedad, sin importar su tamaño.
+Precios accesibles: Ofrezco soluciones de calidad a precios justos, sin costos ocultos.
+Rapidez: Sé lo crucial que es para ti tener tu equipo de vuelta lo antes posible. Trabajo de manera eficiente para reducir tiempos de espera.
+En [nombre de la empresa], me esfuerzo por brindarte un servicio cercano y profesional, con el objetivo de que siempre cuentes con un equipo en perfecto estado para tus actividades diarias. ¡Permíteme ser tu aliado en el cuidado de tus dispositivos!
+
+
+
+
+
+
+TEXTO RESPONSIVO
 Para lograr que el texto "GER Soluciones Informáticas" se justifique (es decir, se mantenga en la misma línea) en pantallas de menos de 481px de ancho, puedes utilizar media queries de CSS y hacer algunos ajustes en el estilo.
 
 Lo que necesitamos hacer es asegurarnos de que el texto no se desborde en dispositivos más pequeños, y que se ajuste de forma fluida dentro del espacio disponible.
@@ -131,3 +149,39 @@ En el archivo `css/style.css` (o el nombre que elijas), agrega el código CSS pa
 - **Usa media queries** dentro del archivo CSS para aplicar estilos específicos según el tamaño de la pantalla.
 
 Si necesitas más ayuda con la estructura o algún detalle adicional, ¡avísame!
+
+
+
+
+
+
+QUIENES Somos
+
+
+    <div class=" container mt-5">
+        <!-- CONTENIDO CARDS -->
+        <div class="content-section">
+
+            <div class="card ms-5 mt-5" style="width: 40rem;">
+                <img src="image/acthard.jpg" class="card-img-top" alt="Actualización de Hardware">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+            <div class="card ms-auto me-5 mt-5" style="width: 40rem;">
+                <img src="image/mantpc.jpg" class="card-img-top" alt="Actualización de Hardware">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+            <div class="card ms-5 mt-5" style="width: 40rem;">
+                <img src="image/sistop.png" class="card-img-top" alt="Actualización de Hardware">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
