@@ -70,8 +70,108 @@
 
     <div class=" container mt-5 d-flex">
 
+        <!-- CONTENIDO SLIDE TEMPORIZADO-->
+
+        <!-- SE AGREGO EN LA SIGUIENTE LINEA DE CÓDIGO data-bs-ride="carousel" PARA QUE SE MUEVA DE MANERA AUTOMATICA LOS ITEMS DEL CAROUSEL. -->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+
+                    <img src="/image/acthard.jpg" class="d-block w-100" alt="...">
+
+                    <div class="carousel-caption d-none d-md-block" style=" -webkit-text-fill-color: darkgray;">
+
+                        <h5 class="text-black">
+                            Actualización de Componentes
+                        </h5>
+
+                        <p class="text-black">
+
+                            <b>
+                                Some representative placeholder content for the first slide.
+                            </b>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <img src="/image/mantpc.jpg" class="d-block w-100" alt="...">
+
+                    <div class="carousel-caption d-none d-md-block" style=" -webkit-text-fill-color: darkgray;">
+
+                        <h5 class="text-emphasis">
+                            Mantenimiento de PC
+                        </h5>
+
+                        <p>
+                            
+                            <b>
+                            Some representative placeholder content for the second slide.
+                            </b>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <img src="/image/sistop.png" class="d-block w-100" alt="...">
+
+                    <div class="carousel-caption d-none d-md-block" style=" -webkit-text-fill-color: darkgray;">
+
+                        <h5 class="text-black">Actualización de Sistemas Operativos</h5>
+
+                        <p class="text-black">
+
+                            <b>
+                                Some representative placeholder content for the third slide.
+                            </b>
+
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+
+            </button>
+
+        </div>
+
+    </div>
         <!-- CONTENIDO CARDS -->
         
+    <div class=" container mt-5 d-flex">
 
         <div class="card ms-5 mt-5" style="width: 40rem;">
 
@@ -79,27 +179,36 @@
             
             <div class="card-body">
 
-                <p class="card-text text-center fs-4">Realizamos un análisis detallado de tu computadora y se observan los componentes que se pueden mejorar,alargando la vida útil de tu Equipo.</p>
-            </div>
-            </div>
+                <p class="card-text text-center fs-4">
+                    Realizamos un análisis detallado de tu computadora y se observan los componentes que se pueden mejorar,alargando la vida útil de tu Equipo.
+                </p>
 
-        <div class="card ms-auto me-5 mt-5" style="width: 40rem;">
+            </div>
+        </div>
+
+        <div class="card ms-5 mt-5" style="width: 40rem;">
 
             <img src="image/mantpc.jpg" class="card-img-top img-flex" alt="Mantenimiento de PC">
+
             <div class="card-body">
                 <p class="card-text text-center fs-4">Realizamos la apertura de tu equipo realizando una limpieza de los componenetes, realizando una revision del sistemas de refrigeración de su Equipo.</p>
             </div>
         </div>
 
         <div class="card ms-5 mt-5" style="width: 40rem;">
+
             <img src="image/sistop.png" class="card-img-top" alt="Actualización de Sistema Operativos">
+
             <div class="card-body">
                 <p class="card-text text-center fs-4"> Se realiza la Actualización y reparaciones del Sistema Operativo,  con todos los programas que Ud y su familia necesita para disfrutar de su computadora.</p>
             </div>
+
         </div>
 
        
     </div>
+
+    <!--  AQUI COMIENZA EL FORMULARIO -->
 
     <div class="container m-2">
 
@@ -226,7 +335,7 @@
             </div>
 
             <label for="fallas">Observaciones o Fallas:</label>
-            <textarea class="form-control" id="fallas" oninput="autoExpand(this)" style="overflow: hidden;"></textarea>
+            <textarea class="form-control" id="fallas" oninput="autoExpand(this)" style="overflow: hidden;" data-toggle="popover" data-trigger="hover" data-content="Redacta una explicación de la Falla de tu computadora"></textarea>
 
         </form>
 
