@@ -11,3 +11,68 @@
         align-items: center;
     }
 }
+
+/* Clases */
+
+.texto-carrusel {
+    color:rgb(119, 5, 94);
+}
+
+.titulo-carrusel {
+    color: darkorchid;
+    font-size: 100%;
+}
+
+#problemas-comunes {
+    background-color: #f8f9fa; /* Fondo suave */
+    padding: 40px 0;
+}
+
+.card {
+    border-radius: 8px;  /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Sombra sutil para dar profundidad */
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #333;  /* Color oscuro para mayor contraste */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;  /* Color intermedio para el texto */
+}
+
+.card:hover {
+    transform: scale(1.05);  /* Agrandar ligeramente la tarjeta */
+    transition: transform 0.3s ease-in-out;  /* Transición suave */
+}
+
+#evita-reacciones {
+    background-color: #f8d7da; /* Fondo suave de color rojo claro para destacar */
+    border-radius: 8px;
+    padding: 40px 0;
+}
+
+#evita-reacciones img {
+    max-width: 80%;  /* Asegurarse de que la imagen no se desborde y quede centrada */
+    margin-bottom: 20px;
+}
+
+#evita-reacciones p {
+    font-weight: bold;
+}
+
+#evita-reacciones .btn {
+    background-color: #dc3545; /* Color rojo para el botón */
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+#evita-reacciones .btn:hover {
+    background-color: #c82333; /* Color más oscuro al pasar el ratón */
+}

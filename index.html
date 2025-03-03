@@ -5,12 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GER Reparaciones de PC</title>
 
+    <link rel="stylesheet" href="./css/style.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
 
 <body>
+
+    <!-- SECCIÓN DE PROBLEMAS COMUNES -->
+
+<section id="problemas-comunes" class="container text-center py-5">
+
+    <h2 class="fs-1">¿Tu computadora tiene alguno de estos problemas?</h2>
+    <p class="fs-4 mb-4">Si experimentas alguno de estos problemas, ¡estamos aquí para ayudarte!</p>
+
+    <div class="row">
+        <!-- Problema 1: Computadora Ruidosa -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="/image/RUIDOS-EN-EL-PC-scaled.jpg" class="card-img-top" alt="Computadora Ruidosa">
+                <div class="card-body">
+                    <h5 class="card-title">¿Tu computadora es ruidosa?</h5>
+                    <p class="card-text">El ruido puede ser una señal de que hay problemas con los ventiladores o componentes internos. ¡Te ayudamos a solucionarlo!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Problema 2: Computadora Lenta -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="/image/pttraa/tortuga-2.png" class="card-img-top" alt="Computadora Lenta">
+                <div class="card-body">
+                    <h5 class="card-title">¿Tu computadora va muy lenta?</h5>
+                    <p class="card-text">Las computadoras lentas pueden deberse a problemas de software o hardware. ¡Te ayudamos a optimizar tu equipo!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Problema 3: Temperatura Elevada -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="/image/temperatura.jpg" class="card-img-top" alt="Computadora con Temperatura Alta">
+                <div class="card-body">
+                    <h5 class="card-title">¿Tu computadora está sobrecalentada?</h5>
+                    <p class="card-text">El sobrecalentamiento puede dañar los componentes de tu PC. ¡Déjanos revisar y optimizar tu sistema de refrigeración!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <a href="#contacto" class="btn btn-primary btn-lg">¡Contáctanos para reparar tu PC!</a>
+    </div>
+</section>
+
+    <!-- SECCIÓN DE EVITA REACCIONES NO PROFESIONALES -->
+    <section id="evita-reacciones" class="container text-center py-5">
+        <h2 class="fs-2 mb-4">¡Evita esas reacciones!</h2>
+        
+        <!-- Imagen de alguien queriendo golpear la computadora -->
+        <img src="/image/pttraa/destruir.jpg" class="img-fluid mb-4" alt="Evita golpear la computadora">
+        
+        <!-- Mensaje llamativo -->
+        <p class="fs-3 text-danger"><strong>¡No hagas esto!</strong></p>
+        <p class="fs-4">No te desesperes, ¡llámanos y te damos una solución rápida y profesional!</p>
+        
+        <!-- Botón de llamado a la acción -->
+        <a href="#contacto" class="btn btn-danger btn-lg">¡Llámanos ahora!</a>
+    </section>
 
     <!-- COMIENZA QUIENES SOMOS -->
 
@@ -26,15 +89,15 @@
     </div>
 
     <div class="container text-center">
-        <h3>
+        <h3 class="texto-carrusel">
             ¿Quién soy?
         </h3>
 
-        <p class="text-start">
-            <strong> GER Soluciones Informáticas </strong> es un emprendimiento dedicado a la reparación y mantenimiento de computadoras, surgido con el objetivo de ofrecer soluciones rápidas, efectivas y personalizadas a cada cliente. Aunque llevo menos de un año en este camino, mi pasión por la tecnología y el compromiso con la calidad me han impulsado a brindar un servicio confiable y accesible para todos.
+        <p class="text-start lead">
+            <span class="fw-bold"> GER Soluciones Informáticas </span> es un emprendimiento dedicado a la reparación y mantenimiento de computadoras, surgido con el objetivo de ofrecer soluciones rápidas, efectivas y personalizadas a cada cliente. Aunque llevo menos de un año en este camino, mi pasión por la tecnología y el compromiso con la calidad me han impulsado a brindar un servicio confiable y accesible para todos.
         </p>
         
-        <p>
+        <p class="lead">
             Como profesional independiente, me enfoco en ofrecer atención directa y cercana, asegurándome de que cada equipo que llega a mis manos reciba el cuidado que necesita. Ya sea para una reparación urgente, optimización del rendimiento o mantenimiento preventivo, estoy aquí para garantizar que tu PC funcione de la mejor manera posible.
         </p>
 
@@ -44,25 +107,25 @@
 
         <ul>
 
-            <li>
-                Atención 100% personalizada: Al ser una empresa pequeña, puedo darte el tiempo y la atención que tu equipo necesita, sin intermediarios.
+            <li class="lead py-2 text-start ps-2">
+                <span class="fw-bold">Atención 100% personalizada:</span> Al ser una empresa pequeña, puedo darte el tiempo y la atención que tu equipo necesita, sin intermediarios.
             </li>
 
-            <li>
-                Compromiso y dedicación: Cada trabajo es importante, y trato cada dispositivo con el mismo nivel de seriedad, sin importar su tamaño.
+            <li class="lead py-2 text-start ps-2">
+                <span class="fw-bold">Compromiso y dedicación:</span> Cada trabajo es importante, y trato cada dispositivo con el mismo nivel de seriedad, sin importar su tamaño.
             </li>
             
-            <li>
-                Precios accesibles: Ofrezco soluciones de calidad a precios justos, sin costos ocultos.
+            <li class="lead py-2 text-start ps-2">
+                <span class="fw-bold">Precios accesibles:</span> Ofrezco soluciones de calidad a precios justos, sin costos ocultos.
             </li>
             
-            <li>
-                Rapidez: Sé lo crucial que es para ti tener tu equipo de vuelta lo antes posible. Trabajo de manera eficiente para reducir tiempos de espera.
+            <li class="lead py-2 text-start ps-2">
+                <span class="fw-bold">Rapidez:</span> Sé lo crucial que es para ti tener tu equipo de vuelta lo antes posible. Trabajo de manera eficiente para reducir tiempos de espera.
             </li>
 
         </ul>
 
-        <p>
+        <p class="fs-4">
             En <strong>GERTech Soluciones Informáticas</strong>, me esfuerzo por brindarte un servicio cercano y profesional, con el objetivo de que siempre cuentes con un equipo en perfecto estado para tus actividades diarias. ¡Permíteme ser tu aliado en el cuidado de tus dispositivos!
         </p>
 
@@ -90,15 +153,15 @@
 
                 <div class="carousel-item active">
 
-                    <img src="/image/acthard.jpg" class="d-block w-100" alt="...">
+                    <img src="/image/acthard2.webp" class="d-block w-100" alt="...">
 
-                    <div class="carousel-caption d-none d-md-block" style=" -webkit-text-fill-color: darkgray;">
+                    <div class="carousel-caption d-none d-md-block">
 
-                        <h5 class="text-black">
-                            Actualización de Componentes
+                        <h5>
+                            <span class="fw-bold titulo-carrusel">Actualización de Componentes</span>
                         </h5>
 
-                        <p class="text-black">
+                        <p class="texto-carrusel">
 
                             <b>
                                 Some representative placeholder content for the first slide.
@@ -114,15 +177,15 @@
 
                     <img src="/image/mantpc.jpg" class="d-block w-100" alt="...">
 
-                    <div class="carousel-caption d-none d-md-block" style=" -webkit-text-fill-color: darkgray;">
+                    <div class="carousel-caption d-none d-md-block">
 
-                        <h5 class="text-emphasis">
-                            Mantenimiento de PC
+                        <h5>
+                            <span class="fw-bold titulo-carrusel">Mantenimiento de PC</span>
                         </h5>
 
                         <p>
                             
-                            <b>
+                            <b class="texto-carrusel">
                             Some representative placeholder content for the second slide.
                             </b>
 
@@ -136,14 +199,16 @@
 
                     <img src="/image/sistop.png" class="d-block w-100" alt="...">
 
-                    <div class="carousel-caption d-none d-md-block" style=" -webkit-text-fill-color: darkgray;">
+                    <div class="carousel-caption d-none d-md-block">
 
-                        <h5 class="text-black">Actualización de Sistemas Operativos</h5>
+                        <h5>
+                            <span class="fw-bold titulo-carrusel">Actualización de Sistemas Operativos</span>
+                        </h5>
 
-                        <p class="text-black">
+                        <p>
 
                             <b>
-                                Some representative placeholder content for the third slide.
+                                <span class="texto-carrusel">Some representative placeholder content for the third slide.</span>
                             </b>
 
                         </p>
@@ -169,176 +234,146 @@
         </div>
 
     </div>
-        <!-- CONTENIDO CARDS -->
-        
-    <div class=" container mt-5 d-flex">
 
-        <div class="card ms-5 mt-5" style="width: 40rem;">
-
-            <img src="image/acthard.jpg" class="card-img-top" alt="Actualización de Hardware">
-            
-            <div class="card-body">
-
-                <p class="card-text text-center fs-4">
-                    Realizamos un análisis detallado de tu computadora y se observan los componentes que se pueden mejorar,alargando la vida útil de tu Equipo.
-                </p>
-
-            </div>
-        </div>
-
-        <div class="card ms-5 mt-5" style="width: 40rem;">
-
-            <img src="image/mantpc.jpg" class="card-img-top img-flex" alt="Mantenimiento de PC">
-
-            <div class="card-body">
-                <p class="card-text text-center fs-4">Realizamos la apertura de tu equipo realizando una limpieza de los componenetes, realizando una revision del sistemas de refrigeración de su Equipo.</p>
-            </div>
-        </div>
-
-        <div class="card ms-5 mt-5" style="width: 40rem;">
-
-            <img src="image/sistop.png" class="card-img-top" alt="Actualización de Sistema Operativos">
-
-            <div class="card-body">
-                <p class="card-text text-center fs-4"> Se realiza la Actualización y reparaciones del Sistema Operativo,  con todos los programas que Ud y su familia necesita para disfrutar de su computadora.</p>
-            </div>
-
-        </div>
-
-       
-    </div>
-
+    <hr>
     <!--  AQUI COMIENZA EL FORMULARIO -->
 
     <div class="container m-2">
+        
+        <section id="contacto">
 
-        <h1 class="text-center">
-            Solicitud de Reparación
-        </h1>
+            <fieldset >
 
-        <form class="m-2">
+                <legend class="text-start">
+                    Datos personales:
+                </legend>
 
-            <div class="row g-3">
+                <form class="m-2">
 
-                <div class="col-md-6">
-                    
-                    <label for="nombre">
-                        Nombre:
-                    </label>
+                    <div class="row g-3">
 
-                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                    
-                </div>
+                        <div class="col-md-6">
 
-                <div class="col-md-6">
-                    
-                    <label for="apellido">
-                        Nombre:
-                    </label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                            
+                        </div>
 
-                    <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                        <div class="col-md-6">
 
-                </div>
+                            <input type="text" class="form-control" id="apellido" placeholder="Apellido">
 
-            </div>
+                        </div>
 
-            <div class="row g-3">
-
-                <div class="col-md-3">
-                    
-                    <label for="telefono">
-                        Teléfono:
-                    </label>
-
-                    <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
-                    
-                </div>
-
-                <div class="col-md-9">
-                    
-                    <label for="departamento">
-                        Departamento:
-                    </label>
-    
-                    <select class="form-select" id="departamento" placeholder="Selecciona tu Departamento">
-    
-                        <option value="ciudad">
-                            Ciudad
-                        </option>
-    
-                        <option value="godoycruz">
-                            Godoy Cruz
-                        </option>
-    
-                        <option value="guaymallen">
-                            Guaymallen
-                        </option>
-    
-                        <option value="lasheras">
-                            Las Heras
-                        </option>
-    
-                        <option value="lujan">
-                            Luján
-                        </option>
-                    
-                    </select>
-
-                </div>
-
-            </div>
-
-            <div class="row g-3 mt-2">
-
-                <div class="col-md-6">
-                    
-                    <label for="marca">
-                        Marca:
-                    </label>
-
-                    <input type="text" class="form-control" id="marca" placeholder="Marca">
-                    
-                </div>
-
-                <div class="col-md-6">
-                    
-                    <label for="modelo">
-                        Modelo:
-                    </label>
-
-                    <input type="text" class="form-control" id="modelo" placeholder="Modelo">
-
-                </div>
-
-            </div>
-
-            <div class="m-4">
-
-                <h3 class="text-center">
-                    Tipo de Computadora:
-                </h3>
-
-                <div class="d-flex justify-content-center">
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="escritorio" checked>
-                        <label class="form-check-label" for="inlineRadio1">PC de escritorio</label>
                     </div>
 
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="portatil">
-                        <label class="form-check-label" for="inlineRadio2">Portatil</label>
+                    <div class="row g-3 pt-4">
+
+                        <div class="col-md-3">
+
+                            <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
+                            
+                        </div>
+
+                        <div class="col-md-9">
+            
+                            <select class="form-select" id="departamento" placeholder="Selecciona tu Departamento">
+            
+                                <option value="" disabled selected hidden>
+                                    Selecciona tu Departamento
+                                </option>
+            
+                                <option value="ciudad">
+                                    Ciudad
+                                </option>
+            
+                                <option value="godoycruz">
+                                    Godoy Cruz
+                                </option>
+            
+                                <option value="guaymallen">
+                                    Guaymallen
+                                </option>
+            
+                                <option value="lasheras">
+                                    Las Heras
+                                </option>
+            
+                                <option value="lujan">
+                                    Luján
+                                </option>
+                            
+                            </select>
+
+                        </div>
+
+                    </div>
+                
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>
+                        Información del Equipo:
+                    </legend>
+
+                    <div class="row g-3 mt-2">
+
+                        <div class="col-md-6">
+                            
+                            <label for="marca">
+                                Marca:
+                            </label>
+
+                            <input type="text" class="form-control" id="marca" placeholder="Marca">
+                            
+                        </div>
+
+                        <div class="col-md-6">
+                            
+                            <label for="modelo">
+                                Modelo:
+                            </label>
+
+                            <input type="text" class="form-control" id="modelo" placeholder="Modelo">
+
+                        </div>
+
                     </div>
 
-                </div>
+                    <div class="m-4">
 
-            </div>
+                        <h3 class="text-center">
+                            Tipo de Computadora:
+                        </h3>
 
-            <label for="fallas">Observaciones o Fallas:</label>
-            <textarea class="form-control" id="fallas" oninput="autoExpand(this)" style="overflow: hidden;" data-toggle="popover" data-trigger="hover" data-content="Redacta una explicación de la Falla de tu computadora"></textarea>
+                        <div class="d-flex justify-content-center">
 
-        </form>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="escritorio" checked>
+                                <label class="form-check-label" for="inlineRadio1">PC de escritorio</label>
+                            </div>
 
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="portatil">
+                                <label class="form-check-label" for="inlineRadio2">Portatil</label>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <legend class="pb-2">
+                        Observaciones o Fallas:
+                    </legend>
+
+                    <textarea class="form-control" id="fallas" oninput="autoExpand(this)" style="overflow: hidden;"  placeholder="Redacta una explicación de la Falla de tu computadora"></textarea>
+
+                </form>
+            
+            </fieldset>
+
+        </section>
+        
     </div>
 
     <!-- Bootstrap JS -->
