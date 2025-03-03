@@ -1,53 +1,30 @@
 /* Ajuste para pantallas más pequeñas */
 @media (max-width: 481px) {
-    .navbar-brand {
-        white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-        font-size: 1.5rem; /* Ajusta el tamaño de la fuente si es necesario */
-    }
-
     .container-fluid {
         display: flex;
+        flex-direction: column;
         justify-content: space-between; /* Asegura que el logo y el texto estén bien alineados */
         align-items: center;
+        justify-content: center;
     }
 }
 
 /* Clases */
 
-.texto-carrusel {
-    color:rgb(119, 5, 94);
+.fondo {
+    background-color: #f8f9fa; /* Fondo gris claro para todo el contenedor */
+    padding: 40px 0; /* Espaciado superior e inferior */
 }
 
-.titulo-carrusel {
-    color: darkorchid;
-    font-size: 100%;
-}
 
-#problemas-comunes {
+/* dISEÑO DE GENERACION DE EMOCIONES */
+
+#problemas-comunes,
+.fondo {
     background-color: #f8f9fa; /* Fondo suave */
     padding: 40px 0;
 }
 
-.card {
-    border-radius: 8px;  /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Sombra sutil para dar profundidad */
-}
-
-.card-title {
-    font-weight: bold;
-    font-size: 1.25rem;
-    color: #333;  /* Color oscuro para mayor contraste */
-}
-
-.card-text {
-    font-size: 1rem;
-    color: #555;  /* Color intermedio para el texto */
-}
-
-.card:hover {
-    transform: scale(1.05);  /* Agrandar ligeramente la tarjeta */
-    transition: transform 0.3s ease-in-out;  /* Transición suave */
-}
 
 #evita-reacciones {
     background-color: #f8d7da; /* Fondo suave de color rojo claro para destacar */
@@ -73,6 +50,103 @@
     text-transform: uppercase;
 }
 
+
+
+
+/* DISEÑO DE FORMULARIO */
+
 #evita-reacciones .btn:hover {
     background-color: #c82333; /* Color más oscuro al pasar el ratón */
+}
+
+.seccion-formulario {
+    border: 2px solid #007bff; /* Borde azul */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interior */
+    margin-bottom: 20px; /* Espacio exterior */
+    background-color: #f1f1f1; /* Fondo gris claro */
+}
+
+.seccion-formulario legend {
+    font-size: 1.5rem; /* Tamaño de fuente más grande para el título */
+    color: #007bff; /* Color azul para el título */
+    font-weight: bold;
+}
+
+button.btn-primary:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el ratón */
+    border-color: #0056b3; /* Color del borde más oscuro al pasar el ratón */
+}
+
+
+
+
+
+
+
+
+/*  DISEÑO CAROUSEL */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente oscuro para los iconos */
+    border-radius: 50%; /* Iconos circulares */
+}
+
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente oscuro para el texto */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interior */
+}
+
+.carousel-caption h3 { 
+    /* color: #fff;  Texto blanco para el título */
+    margin-bottom: 10px; /* Espaciado inferior */
+    color: darkorchid;
+} 
+
+.carousel-caption p {
+    color: #ddd; /* Texto gris claro para el contenido */
+}
+
+
+
+
+
+
+
+/* DISEÑO CARDS */
+
+.card {
+    border-radius: 8px;  /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Sombra sutil para dar profundidad */
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #333;  /* Color oscuro para mayor contraste */
+}
+
+.card:hover {
+    transform: scale(1.05);  /* Agrandar ligeramente la tarjeta */
+    transition: transform 0.3s ease-in-out;  /* Transición suave */
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Asegura que el cuerpo de la tarjeta ocupe toda la altura de la tarjeta */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;  /* Color intermedio para el texto */
+    flex-grow: 1; /* Permite que el texto crezca y ocupe todo el espacio disponible */
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    padding: 10px; /* Ajusta el padding según sea necesario */
 }

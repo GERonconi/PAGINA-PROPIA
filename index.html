@@ -13,71 +13,8 @@
 
 <body>
 
-    <!-- SECCIÓN DE PROBLEMAS COMUNES -->
-
-<section id="problemas-comunes" class="container text-center py-5">
-
-    <h2 class="fs-1">¿Tu computadora tiene alguno de estos problemas?</h2>
-    <p class="fs-4 mb-4">Si experimentas alguno de estos problemas, ¡estamos aquí para ayudarte!</p>
-
-    <div class="row">
-        <!-- Problema 1: Computadora Ruidosa -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img src="/image/RUIDOS-EN-EL-PC-scaled.jpg" class="card-img-top" alt="Computadora Ruidosa">
-                <div class="card-body">
-                    <h5 class="card-title">¿Tu computadora es ruidosa?</h5>
-                    <p class="card-text">El ruido puede ser una señal de que hay problemas con los ventiladores o componentes internos. ¡Te ayudamos a solucionarlo!</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Problema 2: Computadora Lenta -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img src="/image/pttraa/tortuga-2.png" class="card-img-top" alt="Computadora Lenta">
-                <div class="card-body">
-                    <h5 class="card-title">¿Tu computadora va muy lenta?</h5>
-                    <p class="card-text">Las computadoras lentas pueden deberse a problemas de software o hardware. ¡Te ayudamos a optimizar tu equipo!</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Problema 3: Temperatura Elevada -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img src="/image/temperatura.jpg" class="card-img-top" alt="Computadora con Temperatura Alta">
-                <div class="card-body">
-                    <h5 class="card-title">¿Tu computadora está sobrecalentada?</h5>
-                    <p class="card-text">El sobrecalentamiento puede dañar los componentes de tu PC. ¡Déjanos revisar y optimizar tu sistema de refrigeración!</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="text-center mt-5">
-        <a href="#contacto" class="btn btn-primary btn-lg">¡Contáctanos para reparar tu PC!</a>
-    </div>
-</section>
-
-    <!-- SECCIÓN DE EVITA REACCIONES NO PROFESIONALES -->
-    <section id="evita-reacciones" class="container text-center py-5">
-        <h2 class="fs-2 mb-4">¡Evita esas reacciones!</h2>
-        
-        <!-- Imagen de alguien queriendo golpear la computadora -->
-        <img src="/image/pttraa/destruir.jpg" class="img-fluid mb-4" alt="Evita golpear la computadora">
-        
-        <!-- Mensaje llamativo -->
-        <p class="fs-3 text-danger"><strong>¡No hagas esto!</strong></p>
-        <p class="fs-4">No te desesperes, ¡llámanos y te damos una solución rápida y profesional!</p>
-        
-        <!-- Botón de llamado a la acción -->
-        <a href="#contacto" class="btn btn-danger btn-lg">¡Llámanos ahora!</a>
-    </section>
-
-    <!-- COMIENZA QUIENES SOMOS -->
-
     <!-- LOGO Y TÍTULO -->
+
     <div class="container-fluid d-flex flex-column justify-content-center align-items-center py-4" style="background-color: rgb(228, 225, 231);">
         <img src="image/LogoNuevo1.png" alt="Logo" style="width: 7cm;">
 
@@ -86,52 +23,107 @@
         <span style="color: magenta; font-weight: bolder; font-style: italic; width:fit-content;">
             <h3 class="fs-2 mt-2">¡Tenemos todo lo que tu PC necesita!</h3>
         </span>
+
     </div>
 
-    <div class="container text-center">
-        <h3 class="texto-carrusel">
-            ¿Quién soy?
-        </h3>
+    <!-- SECCIÓN DE PROBLEMAS COMUNES -->
 
-        <p class="text-start lead">
-            <span class="fw-bold"> GER Soluciones Informáticas </span> es un emprendimiento dedicado a la reparación y mantenimiento de computadoras, surgido con el objetivo de ofrecer soluciones rápidas, efectivas y personalizadas a cada cliente. Aunque llevo menos de un año en este camino, mi pasión por la tecnología y el compromiso con la calidad me han impulsado a brindar un servicio confiable y accesible para todos.
-        </p>
-        
-        <p class="lead">
-            Como profesional independiente, me enfoco en ofrecer atención directa y cercana, asegurándome de que cada equipo que llega a mis manos reciba el cuidado que necesita. Ya sea para una reparación urgente, optimización del rendimiento o mantenimiento preventivo, estoy aquí para garantizar que tu PC funcione de la mejor manera posible.
-        </p>
+    <section id="problemas-comunes" class="container-fluid text-center py-5 px-5">
 
-        <h3>
-            ¿Por qué elegirnos?
-        </h3>
+        <h2 class="fs-1">¿Tu computadora tiene alguno de estos problemas?</h2>
 
-        <ul>
+        <p class="fs-4 mb-4">Si experimentas alguno de estos problemas, ¡estamos aquí para ayudarte!</p>
 
-            <li class="lead py-2 text-start ps-2">
-                <span class="fw-bold">Atención 100% personalizada:</span> Al ser una empresa pequeña, puedo darte el tiempo y la atención que tu equipo necesita, sin intermediarios.
-            </li>
+        <div class="row">
 
-            <li class="lead py-2 text-start ps-2">
-                <span class="fw-bold">Compromiso y dedicación:</span> Cada trabajo es importante, y trato cada dispositivo con el mismo nivel de seriedad, sin importar su tamaño.
-            </li>
+            <!-- Problema 1: Computadora Ruidosa -->
+            <div class="col-md-4 mb-4">
+
+                <div class="card d-flex flex-column" style="height: 100%;">
+
+                    <img src="/image/RUIDOS-EN-EL-PC-scaled.jpg" class="card-img-top" alt="Computadora Ruidosa">
+
+                    <!-- Se agrega d-flex flex-column para que alienar todas las columnas en su parte inferior en el proximo div -->
+                    
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">¿Tu computadora es ruidosa?</h5>
+                        <p class="card-text">El ruido puede ser una señal de que hay problemas con los ventiladores o componentes internos. ¡Te ayudamos a solucionarlo!</p>
+                        <div class="mt-auto"></div> 
+                    </div> 
+
+                </div>
+
+            </div>
+
+            <!-- Problema 2: Computadora Lenta -->
             
-            <li class="lead py-2 text-start ps-2">
-                <span class="fw-bold">Precios accesibles:</span> Ofrezco soluciones de calidad a precios justos, sin costos ocultos.
-            </li>
+            <div class="col-md-4 mb-4">
+
+                <div class="card d-flex flex-column" style="height: 100%;">
+
+                    <img src="/image/pttraa/tortuga-2.png" class="card-img-top" alt="Computadora Lenta">
+
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">¿Tu computadora va muy lenta?</h5>
+                        <p class="card-text">Las computadoras lentas pueden deberse a problemas de software o hardware. ¡Te ayudamos a optimizar tu equipo!</p>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Problema 3: Temperatura Elevada -->
             
-            <li class="lead py-2 text-start ps-2">
-                <span class="fw-bold">Rapidez:</span> Sé lo crucial que es para ti tener tu equipo de vuelta lo antes posible. Trabajo de manera eficiente para reducir tiempos de espera.
-            </li>
+            <div class="col-md-4 mb-4">
 
-        </ul>
+                <div class="card d-flex flex-column" style="height: 100%;">
 
-        <p class="fs-4">
-            En <strong>GERTech Soluciones Informáticas</strong>, me esfuerzo por brindarte un servicio cercano y profesional, con el objetivo de que siempre cuentes con un equipo en perfecto estado para tus actividades diarias. ¡Permíteme ser tu aliado en el cuidado de tus dispositivos!
-        </p>
+                    <img src="/image/temperatura.jpg" class="card-img-top" alt="Computadora con Temperatura Alta">
+
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">¿Tu computadora está sobrecalentada?</h5>
+                        <p class="card-text">El sobrecalentamiento puede dañar los componentes de tu PC. ¡Déjanos revisar y optimizar tu sistema de refrigeración!</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="text-center mt-3">
+
+            <a href="#contacto" class="btn btn-primary btn-lg">¡Contáctanos para reparar tu PC!</a>
+        </div>
+
+    </section>
+
+    <!-- SECCIÓN DE EVITA REACCIONES NO PROFESIONALES -->
+    
+    <div id="problemas-comunes" class="container-fluid">
+
+        <section id="evita-reacciones" class="container text-center">
+
+            <h2 class="fs-2 mb-4">¡Evita esas reacciones!</h2>
+            
+            <!-- Imagen de alguien queriendo golpear la computadora -->
+            <img src="/image/pttraa/destruir.jpg" class="img-fluid mb-4" alt="Evita golpear la computadora">
+            
+            <!-- Mensaje llamativo -->
+            <p class="fs-3 text-danger"><strong>¡No hagas esto!</strong></p>
+            <p class="fs-4">No te desesperes, ¡llámanos y te damos una solución rápida y profesional!</p>
+            
+            <!-- Botón de llamado a la acción -->
+            <a href="#contacto" class="btn btn-danger btn-lg">¡Llámanos ahora!</a>
+
+        </section>
+
+    </div>
 
     <!-- COMIENZA SERVICIOS -->
 
-    <div class=" container mt-5 d-flex">
+    <div class="container-fluid px-5 fondo ">
 
         <!-- CONTENIDO SLIDE TEMPORIZADO-->
 
@@ -157,17 +149,9 @@
 
                     <div class="carousel-caption d-none d-md-block">
 
-                        <h5>
-                            <span class="fw-bold titulo-carrusel">Actualización de Componentes</span>
-                        </h5>
-
-                        <p class="texto-carrusel">
-
-                            <b>
-                                Some representative placeholder content for the first slide.
-                            </b>
-
-                        </p>
+                        <h3>
+                            <span class="fw-bold titulo-carrusel display-5">Actualización de Componentes</span>
+                        </h3>
 
                     </div>
 
@@ -179,17 +163,9 @@
 
                     <div class="carousel-caption d-none d-md-block">
 
-                        <h5>
-                            <span class="fw-bold titulo-carrusel">Mantenimiento de PC</span>
-                        </h5>
-
-                        <p>
-                            
-                            <b class="texto-carrusel">
-                            Some representative placeholder content for the second slide.
-                            </b>
-
-                        </p>
+                        <h3>
+                            <span class="fw-bold titulo-carrusel display-5">Mantenimiento de PC</span>
+                        </h3>
 
                     </div>
 
@@ -201,17 +177,9 @@
 
                     <div class="carousel-caption d-none d-md-block">
 
-                        <h5>
+                        <h3>
                             <span class="fw-bold titulo-carrusel">Actualización de Sistemas Operativos</span>
-                        </h5>
-
-                        <p>
-
-                            <b>
-                                <span class="texto-carrusel">Some representative placeholder content for the third slide.</span>
-                            </b>
-
-                        </p>
+                        </h3>
 
                     </div>
                 </div>
@@ -235,14 +203,13 @@
 
     </div>
 
-    <hr>
     <!--  AQUI COMIENZA EL FORMULARIO -->
-
-    <div class="container m-2">
+    
+    <div class="container-fluid px-5 fondo">
         
         <section id="contacto">
 
-            <fieldset >
+            <fieldset class="seccion-formulario" >
 
                 <legend class="text-start">
                     Datos personales:
@@ -254,28 +221,35 @@
 
                         <div class="col-md-6">
 
+                            <label for="nombre" class="form-label">Nombre:</label>
+
                             <input type="text" class="form-control" id="nombre" placeholder="Nombre">
                             
                         </div>
 
                         <div class="col-md-6">
 
+                            <label for="apellido" class="form-label">Apellido:</label>
+
                             <input type="text" class="form-control" id="apellido" placeholder="Apellido">
 
                         </div>
 
-                    </div>
 
-                    <div class="row g-3 pt-4">
-
+                        <!-- segunda fila -->
+                        
                         <div class="col-md-3">
+
+                            <label for= "telefono" class="form-label">Teléfono:</label>
 
                             <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
                             
                         </div>
 
                         <div class="col-md-9">
-            
+                            
+                            <label for="departamento" class="form-label">Departamento:</label>
+
                             <select class="form-select" id="departamento" placeholder="Selecciona tu Departamento">
             
                                 <option value="" disabled selected hidden>
@@ -307,10 +281,6 @@
                         </div>
 
                     </div>
-                
-                </fieldset>
-
-                <fieldset>
 
                     <legend>
                         Información del Equipo:
@@ -367,6 +337,11 @@
                     </legend>
 
                     <textarea class="form-control" id="fallas" oninput="autoExpand(this)" style="overflow: hidden;"  placeholder="Redacta una explicación de la Falla de tu computadora"></textarea>
+                    
+                    <!-- Botón Enviar -->
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-primary btn-lg w-25">Enviar</button>
+                    </div>
 
                 </form>
             
@@ -378,6 +353,7 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
