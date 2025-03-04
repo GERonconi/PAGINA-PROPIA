@@ -1,6 +1,6 @@
 /* Ajuste para pantallas más pequeñas */
 /* Asegura que el logo y el texto estén bien alineados */
-@media (max-width: 481px) {
+/* @media (max-width: 481px) {
     .container-fluid {
         display: flex;
         flex-direction: column;
@@ -8,14 +8,15 @@
         align-items: center;
         justify-content: center;
     }
-}
+} */
 
 /* Clases */
 
-.fondo {
-    background-color: #f8f9fa; /* Fondo gris claro para todo el contenedor */
-    padding: 40px 0; /* Espaciado superior e inferior */
-}
+/* Espaciado superior e inferior */
+/* .fondo {
+    background-color: #0c65be;
+    padding: 40px 0; 
+} */
 
 
 /* dISEÑO DE GENERACION DE EMOCIONES */
@@ -111,18 +112,37 @@ button.btn-primary:hover {
     color: #ddd; /* Texto gris claro para el contenido */
 }
 
+
+/* Todo esto esta recien siendo agregado */
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para los íconos */
+    border-radius: 50%; /* Hacer los íconos circulares */
+    height: 40px; /* Ajustar el tamaño */
+    width: 40px; /* Ajustar el tamaño */
+}
+
 @media (max-width: 768px) {
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
-        height: 50px;
-        width: 50px; /* Reducir el tamaño en pantallas más pequeñas */
+        height: 30px;
+        width: 30px; /* Reducir el tamaño en pantallas más pequeñas */
     }
 }
 
-
-
-
-
+@media (max-width: 481px) {
+    .container-fluid {
+        display: block;  /* Cambiar de flex a block para evitar conflictos */
+        justify-content: center; /* Centra el contenido */
+        align-items: center;
+    }
+}
 
 
 /* DISEÑO CARDS */
