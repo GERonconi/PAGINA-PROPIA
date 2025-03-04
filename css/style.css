@@ -1,9 +1,10 @@
 /* Ajuste para pantallas más pequeñas */
+/* Asegura que el logo y el texto estén bien alineados */
 @media (max-width: 481px) {
     .container-fluid {
         display: flex;
         flex-direction: column;
-        justify-content: space-between; /* Asegura que el logo y el texto estén bien alineados */
+        justify-content: space-between; 
         align-items: center;
         justify-content: center;
     }
@@ -108,6 +109,14 @@ button.btn-primary:hover {
 
 .carousel-caption p {
     color: #ddd; /* Texto gris claro para el contenido */
+}
+
+@media (max-width: 768px) {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 30px;
+        width: 30px; /* Reducir el tamaño en pantallas más pequeñas */
+    }
 }
 
 
