@@ -114,8 +114,8 @@ button.btn-primary:hover {
 @media (max-width: 768px) {
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
-        height: 30px;
-        width: 30px; /* Reducir el tamaño en pantallas más pequeñas */
+        height: 50px;
+        width: 50px; /* Reducir el tamaño en pantallas más pequeñas */
     }
 }
 
